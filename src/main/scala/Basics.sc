@@ -38,7 +38,7 @@ matrixFromScalaArray.shape()
 val myMatrix = Nd4j.rand(3, 5)
 
 // Getting a row.
-myMatrix.getColumn(0)
+myMatrix.getRow(0)
 
 // Getting a column
 myMatrix.getColumn(1)
